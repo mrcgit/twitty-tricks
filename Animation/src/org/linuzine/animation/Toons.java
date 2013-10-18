@@ -57,7 +57,7 @@ public abstract class Toons implements Runnable {
 				setRoom(room);
 				Thread.sleep(new Random().nextInt(1000));
 				
-				// Non c'è bisogno che i trucchi vengano controllati ad ogni stanza
+				//TODO: Migliorare codice ridondante
 				for(Tricks trick : Stage.tricks)
 					if(trick.getRoom() == room)
 						act(trick);
