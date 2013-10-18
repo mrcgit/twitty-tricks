@@ -1,6 +1,4 @@
 package org.linuzine.animation;
-
-
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -15,7 +13,7 @@ public abstract class Toons implements Runnable {
 	/**
 	 * Indica la stanza in cui si trova il personaggio.
 	 */
-	public Rooms room;
+	private Rooms room;
 	/**
 	 * Indica il nome del personaggio.
 	 */
