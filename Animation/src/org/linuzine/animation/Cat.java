@@ -26,10 +26,10 @@ public class Cat extends Toons {
 			System.out.println(name+ " scivola sulla buccia di banana...");
 			break;
 		case sgabello:
-			System.out.println(name + " inciampa sullo sgabello...");
+			System.out.println(name + " inciampa nello sgabello...");
 			break;
 		case pallaDaBowling:
-			System.out.println("Una palla da bowling cade sulla testa di "+name+"...");
+			System.out.println(" Una palla da bowling cade sulla testa di "+name+"...");
 		default:
 			break;
 		}
